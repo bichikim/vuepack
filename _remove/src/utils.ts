@@ -5,7 +5,7 @@
  * @license Private
  */
 import _ from 'lodash'
-import {IConfig} from '@/IConfig'
+import {IConfig} from '_remove/src/IConfig'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 import path from 'path'
 interface ICssLoaderOptions {

@@ -6,10 +6,10 @@
  */
 const path = require('path')
 // const utils = require('./utils')
-const config = require('../config')
+const config = require('./index')
 // const webpack = require('webpack')
 // const packageJson = require('../package.json')
-const configUtils = require('../config/utils')
+const configUtils = require('./utils')
 
 function babel() {
   return configUtils.babel(config)
